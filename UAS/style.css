@@ -1,0 +1,38 @@
+/* Memberi border dan mengatur posisi canvas di tengah */
+#gameCanvas {
+    border: 2px solid #333; /* Warna border sedikit lebih gelap */
+    margin: 20px auto; /* Memberikan margin di atas dan bawah */
+    display: block; /* Menampilkan elemen sebagai block */
+    background-color: #f9f9f9; /* Warna latar belakang canvas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Memberikan bayangan pada canvas */
+    border-radius: 10px; /* Membulatkan sudut-sudut canvas */
+}
+
+/* Menambahkan gaya pada body untuk tata letak yang lebih baik */
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur jenis font */
+    background-color: #e0e0e0; /* Warna latar belakang body */
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: center; /* Memposisikan konten di tengah secara horizontal */
+    align-items: center; /* Memposisikan konten di tengah secara vertikal */
+    height: 100vh; /* Tinggi body 100% viewport height */
+    margin: 0; /* Menghilangkan margin default */
+    overflow: hidden; /* Menghilangkan scroll */
+}
+
+/* Menambahkan gaya pada elemen teks untuk skor dan nyawa */
+#score, #lives {
+    font-size: 16px;
+    color: #333;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Memberikan gaya tambahan untuk memperindah teks game over */
+.game-over {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
